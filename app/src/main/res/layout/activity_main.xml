@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAB97B"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="284dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="184dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getStarted"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="48dp"
+        android:autoText="false"
+        android:background="@drawable/btn_bg"
+        android:backgroundTintMode="add"
+        android:cursorVisible="true"
+        android:fontFamily="@font/adamina"
+        android:foregroundTint="#024941"
+        android:freezesText="true"
+
+        android:shadowColor="#009688"
+        android:soundEffectsEnabled="true"
+        android:text="Get Started"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textDirection="firstStrong"
+        android:textStyle="normal|bold"
+        app:iconTint="#D8C2C2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:strokeColor="#024941" />
+</androidx.constraintlayout.widget.ConstraintLayout>
